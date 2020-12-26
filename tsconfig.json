@@ -16,6 +16,11 @@
         "typings",
         "./node_modules/@types"
       ],
+      "lib": [
+        "dom",
+        "es2015",
+        "esnext.asynciterable",  // async + geneter.
+      ],
       // 어노테이션
       "emitDecoratorMetadata": true,
       "experimentalDecorators": true
